@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(16, 16, 17);
+    
+}
+#bg{
+  background-image: url("veno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+  nav{
+    background-color: black;
+}
+a {
+    display: block;
+  }
+.button {
+    background-color: #e50914;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    padding: 8px 18px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+  }
+
+#brand{
+  
+        width: 180px;
+        height: auto;
+        padding: 8px;
+      
+}
+
+#info{
+  padding-top: 20%;
+  padding-left: 5%;
+  color: aliceblue;
+  
+}
+
+.lit{
+  color: darkgray;
+}
+#nom{
+  text-align: center;
+  color: dimgrey;
+}
+hr{
+  color: dimgrey;
+}
+.grid-container
+  {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 500px 500px 400px;
+    grid-template-rows: 50px 150px 150px;
+    
+  }
+
+.grid-item {
+  padding: 10px;
+ 
+}
+
+.h
+{
+  padding-top: 2%;
+  padding-left: 5%;
+  color: aliceblue;
+}
+.footer {
+  display: grid;
+  box-sizing: border-box;
+  margin: auto;
+  overflow: hidden;
+  
+  padding: 1rem 2rem;
+  margin-left: 3%;
+  color: darkgray ;
+ 
+}
+h6{
+  text-align: center;
+}
+.footer .footer-cols ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0.1rem;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  
+}
+ a {
+  color: darkgray ;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:1px underline blanchedalmond;
+}
